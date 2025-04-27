@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'PEDIGREE-BLACK';
+    src: url('https://primavera.pl/data/include/cms/Strefa/Pedigree/PEDIGREEUNLEASHEDBLK.ttf');
+}
+
+@font-face {
+    font-family: "PEDIGREE-Regular";
+    src: url("https://primavera.pl/data/include/cms/Strefa/Pedigree/PEDIGREEUNLEASHED.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "PEDIGREE-Regular";
+}
+
+.text_menu__label {
+    display: none !important;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    background: #FB9701;
+}
+
+h1 {
+    font-size: 74px !important;
+    font-family: 'PEDIGREE-BLACK';
+}
+
+#layout {
+    margin: 0 -90px;
+}
+
+h2 {
+    font-size: 40px !important;
+    text-align: center;
+    color: #fff !important;
+    font-weight: bold;
+    font-family: 'PEDIGREE-BLACK';
+    margin: 50px 0;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 25px;
+}
+
+.section1-title {
+    color: #fff !important;
+    line-height: 100% !important;
+    font-size: 50px !important;
+}
+
+.section1-block1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.section1-img1 {
+    width: 333px;
+    margin-right: 30px;
+}
+
+.section1-logo {
+    margin-left: -10px;
+    width: 273px;
+    height: 153px;
+}
+
+.section1 {
+    padding: 0 80px;
+    padding-top: 40px;
+    width: inherit;
+    height: 360px;
+    background-color: #FDAF00;
+    border-radius: 0 0 600px 600px / 114px;
+    box-shadow: 0px 5px 27px -20px black;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+.btn-link:hover {
+    box-shadow: 0px 0 14px 0px #E40F24;
+}
+
+.btn-link {
+    background: #E40F24;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "PEDIGREE-Regular";
+    border-radius: 100px;
+    transition: 0.3s all;
+
+}
+
+.slider-btn {
+    margin-top: 20px;
+    padding: 9px 73px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.section2-items {
+    margin-top: 20px;
+}
+
+.section2-items .item {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2-items img {
+    height: 438px;
+}
+
+.section3 {
+    text-align: center;
+    background: url('https://unizoo.pl/data/include/cms/landings/pedigree/img/section3-bg.png') no-repeat;
+    background-position-y: 163px;
+    background-size: cover;
+}
+
+.section3>img {
+    width: 455px;
+}
+
+.section-description {
+    padding: 32px;
+    margin: 30px 190px 50px;
+    text-align: justify;
+    background: #FFCD81;
+    border-radius: 30px;
+    font-family: 'PEDIGREE-Regular';
+}
+
+.section-items {
+    display: flex;
+    justify-content: center;
+    grid-gap: 40px 95px;
+    flex-wrap: wrap;
+}
+
+.section-items .item {}
+
+.section-items .item .card::after {
+    content: "";
+    width: inherit;
+    height: inherit;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    opacity: 0.2;
+    background: url("https://unizoo.pl/data/include/cms/landings/pedigree/img/card-bg.png");
+}
+
+.section-items .item .card {
+    width: 400px;
+    height: 565px;
+    padding: 20px;
+    background: #FFCD81;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0px 10px 7px 0px #0000003d;
+}
+
+.section-items .item .card img {
+    margin: 0 -20px;
+    position: relative;
+    z-index: 99;
+    object-fit: contain;
+}
+
+.section-items .item .card .btn-link {
+    width: calc(100% - 40px);
+    display: block;
+    padding: 10px 0;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    font-family: 'PEDIGREE-Regular';
+    z-index: 99;
+}
+
+.section-items .item .card .card-title {
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'PEDIGREE-Regular';
+}
+
+.section-items .item .card ul {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'PEDIGREE-Regular';
+}
+
+.section-items .item .card ul li {
+    list-style: disc;
+}
+
+.section .item-title {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-family: 'PEDIGREE-Regular';
+}
+
+.section4 {
+    margin-top: 40px;
+    text-align: center;
+    background: url('img/section4-bg.png') no-repeat;
+    background-position-y: 0px;
+}
+
+.section4-img {
+    margin-bottom: -4px;
+    margin-left: 255px;
+    height: 358px;
+    width: auto;
+}
+
+.section5 .section-items .item {
+    margin: 0;
+}
+
+.section5 {
+    position: relative;
+    background: url('https://unizoo.pl/data/include/cms/landings/pedigree/img/section3-bg.png') no-repeat;
+    background-position-y: 163px;
+}
+
+.section5::after {
+    content: "";
+    background-image: url("https://unizoo.pl/data/include/cms/landings/pedigree/img/section5-img1-bg.png");
+    display: block;
+    width: 366px;
+    height: 500px;
+    position: absolute;
+    top: -90px;
+    z-index: 1;
+}
+
+.section5::before {
+    content: "";
+    background-image: url("https://unizoo.pl/data/include/cms/landings/pedigree/img/section5-img2-bg.png");
+    display: block;
+    width: 366px;
+    height: 500px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    z-index: 1;
+}
+
+.section5 .section-items .item .card {
+    height: 515px;
+}
+
+.section5-description {
+    margin-bottom: 90px;
+    position: relative;
+    z-index: 3;
+}
+
+.section6 {
+    margin-top: 40px;
+}
+
+.section6 img {
+    width: 100%;
+}
+
+.section7 {
+    height: 200px;
+    text-align: center;
+}
+
+.slick-next::before {
+    background-image: url('data:image/svg+xml,<svg width="45" height="52" viewBox="0 0 45 52" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M45 26L-2.447e-06 51.9808L-1.75686e-07 0.0192356L45 26Z" fill="%23E40F24"/></svg>');
+    content: '' !important;
+    display: block;
+    width: 45px;
+    height: 52px;
+}
+
+.slick-next {
+    right: 20% !important;
+    width: 45px!important;
+    height: 52px!important;
+}
+
+.slick-prev {
+    left: 20% !important;
+    z-index: 9999;
+    width: 45px!important;
+    height: 52px!important;
+}
+
+.slick-prev::before {
+    background-image: url('data:image/svg+xml,<svg width="45" height="53" viewBox="0 0 45 53" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M-3.18289e-05 26.4307L45 0.4499L45 52.4114L-3.18289e-05 26.4307Z" fill="%23E40F24"/></svg>');
+    content: '' !important;
+    display: block;
+    width: 45px;
+    height: 52px;
+}
+
+.hide-d {
+    display: none;
+}
+
+@media (max-width: 979px) {
+    .hide-m {
+        display: none;
+    }
+    h1 {
+        font-size: 45px !important;
+    }
+    h2 {
+        font-size: 25px !important;
+        margin: 36px 0;
+    }
+    .main {
+        width: 100%;
+    }
+    .section1 {
+        width: 100%;
+        height: 456px;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+    .section1-title {
+        width: 100%;
+        text-align: center;
+        font-size: 30px !important;
+    }
+    .section1-block1 {
+        text-align: center;
+        flex-direction: column;
+    }
+    .section1-img1 {
+        width: 222px;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+    .section1-logo {
+        width: 178px;
+        height: 99px;
+        margin: 0;
+    }
+    .section6 img {
+        width: 100%;
+    }
+    .section4-img {
+        margin-left: 0;
+        height: 219px;
+        margin-top: 30px;
+    }
+    .section2-items img {
+        height: auto;
+    }
+    .slick-prev {
+        left: 4% !important;
+    }
+    .slick-next {
+        right: 4% !important;
+    }
+    .section3>img {
+        width: 60%;
+    }
+    .slick-slide img {
+        width: 100%;
+    }
+    .section2-items .btn-link {
+        margin-top: 20px;
+        padding: 9px 25px;
+        font-size: 20px !important;
+    }
+    .section-description {
+        margin: 15px 32px 25px;
+        text-align: center;
+        font-size: 15px !important;
+        padding: 10px;
+    }
+    .section .item-title {
+        font-size: 25px !important;
+        margin-bottom: 20px;
+    }
+    .section-items .item .card img {
+        width: 100%;
+    }
+    .section-items .item .card {
+        width: 100%;
+        height: 440px;
+    }
+    .section-items {
+        padding: 0 30px;
+        grid-gap: 22px 95px;
+    }
+    .section-items .item .card .card-title {
+        font-size: 25px !important;
+    }
+    .section-items .item .card ul {
+        font-size: 18px !important;
+    }
+    .section-items .item {
+        margin-bottom: 15px;
+    }
+    .section4 {
+        margin-top: 15px;
+    }
+    .section7 img {
+        width: 209px;
+    }
+    .section5::after,
+    .section5::before {
+        display: none;
+    }
+    .section7 {
+        height: 120px;
+    }
+    .section-items .item .card img {
+        margin: 0;
+    }
+    .section5 .section-items .item .card {
+        height: 390px;
+    }
+    #layout {
+        margin: 0 -15px;
+    }
+    .slider-btn {
+        padding: 9px 25px;
+        font-size: 20px !important;
+    }
+    .glide__slide img {
+        padding-inline: 20px;
+    }
+    .glide__arrow--right {
+        right: 4% !important;
+    }
+    .glide__arrow--left {
+        left: 4% !important;
+    }
+}
+
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px; /* Show button shadow fully on hover */
+}
+.glide {
+    position: relative;
+}
+.glide__arrow {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    transition: all 0.2s;    
+}
+.glide__arrow:hover {
+    opacity: 1;
+    cursor: pointer;
+    scale: 1.1;
+    transform-origin: center;
+}
+.glide__arrow--left {
+    transform: scaleX(-1) translateY(-50%);
+    left: 20%;
+}
+.glide__arrow--right {
+    right: 20%;
+}
+.glide--dragging {
+    cursor: grabbing;
+}
+img {
+    max-width: 100%;
+}

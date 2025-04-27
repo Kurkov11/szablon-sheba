@@ -1,0 +1,621 @@
+@font-face {
+    font-family: 'TisaSansPro';
+    src: url('https://primavera.pl/data/include/cms/Strefa/Whiskas/Tisa_Sans_Pro_Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'TisaSansPro';
+    src: url('https://primavera.pl/data/include/cms/Strefa/Whiskas/Tisa_Sans_Pro_Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.main * {
+    font-family: 'TisaSansPro';
+}
+
+.main {
+    width: 1200px;
+    background: #780068;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#layout {
+    margin: 0 -90px;
+}
+
+.text_menu__label {
+    display: none !important;
+}
+
+.section1 {
+    background: #84006E;
+}
+
+.section1-bg {
+    /*height: 591px;*/
+    /*background: url("https://unizoo.pl/data/include/cms/landings/whiskas/img/s1bg.png");*/
+    position: relative;
+    z-index: 99;
+}
+
+.section1-block {
+    background: #ffffff;
+    width: inherit;
+    height: 300px;
+    margin-top: -94px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    grid-gap: 105px;
+    margin-bottom: -40px;
+}
+
+.section1-block img {
+    position: relative;
+    z-index: 99;
+    width: 210px;
+    height: 230px;
+}
+
+.section1-block-img1,
+.section1-block-img3 {
+    top: 10px;
+}
+
+.section1-block-img2 {
+    top: 50px;
+}
+
+.section2 {
+    background: #fff;
+}
+
+.section-title {
+    font-size: 45px !important;
+    line-height: normal !important;
+    text-align: center !important;
+    padding-top: 40px !important;
+    margin: 0 !important;
+    color: #ffffff !important;
+}
+
+.section2 .section-title {
+    color: #9A2582 !important;
+}
+
+.section2-list {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 57px;
+    padding-bottom: 65px;
+}
+
+.section2-list .item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+}
+
+.button:hover,
+.button:active {
+    color: #FFFFFF;
+    box-shadow: 0px 0 14px 0px #EABE37;
+}
+
+.button {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #780068;
+    border-radius: 100px;
+    border: 5px solid #EABE37;
+    display: flex;
+    align-items: center;
+    padding: 6px 26px;
+    margin-top: 33px;
+    margin-bottom: 10px;
+    transition: 0.3s all;
+    text-decoration: none;
+}
+
+.button::after {
+    background-image: url('data:image/svg+xml,<svg width="29" height="27" viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.4224 10.5602H3.0528C1.36679 10.5602 0 11.9033 0 13.5602C0 15.217 1.36679 16.5602 3.0528 16.5602H24.4224C26.1084 16.5602 27.4752 15.217 27.4752 13.5602C27.4752 11.9033 26.1084 10.5602 24.4224 10.5602Z" fill="%23EABE37"/><path d="M26.9626 11.3284L17.6084 2.13605C16.6149 1.15974 15.0042 1.15974 14.0107 2.13605C13.0172 3.11236 13.0172 4.69528 14.0107 5.67159L23.3648 14.864C24.3583 15.8403 25.9691 15.8403 26.9626 14.864C27.9561 13.8877 27.9561 12.3048 26.9626 11.3284Z" fill="%23EABE37"/><path d="M23.3642 12.1359L14.01 21.3283C13.0166 22.3046 13.0166 23.8875 14.01 24.8638C15.0035 25.8401 16.6143 25.8401 17.6078 24.8638L26.962 15.6714C27.9555 14.6951 27.9555 13.1122 26.962 12.1359C25.9685 11.1596 24.3577 11.1596 23.3642 12.1359Z" fill="%23EABE37"/></svg>');
+    content: "";
+    display: block;
+    width: 29px;
+    height: 27px;
+    margin-left: 18px;
+}
+
+.section3 {
+    padding: 0 90px;
+    padding-bottom: 67px;
+}
+
+.section3 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card-description {
+    background: #84006E;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.card-description-text {
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.card1 .card-description-text {
+    font-size: 25px !important;
+}
+
+.content-title {
+    color: #EABE37 !important;
+    font-size: 35px !important;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.card1 {
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-name {
+    font-size: 35px !important;
+    color: #fff !important;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+    line-height: 35px !important;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 58px;
+    position: relative;
+    justify-content: center;
+    gap: 80px;
+}
+.content-title {
+    margin-top: 58px;
+}
+
+.cards .card {
+    width: 400px;
+    background: #84006E;
+    height: 736px;
+    border-radius: 30px;
+}
+
+.cards .button {
+    position: absolute;
+    bottom: 20px;
+}
+
+.section4 {
+    background: url("https://unizoo.pl/data/include/cms/landings/whiskas/img/s4bg.png") no-repeat;
+    padding: 0 90px;
+    padding-bottom: 67px;
+}
+
+.section4 .card1>img {
+    width: 824px;
+}
+
+.section5 {
+    background: #992482;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section5-block1 .button {
+    margin: 0;
+}
+
+.section5-list .section5-block1 {
+    margin-top: 0;
+    width: auto;
+}
+
+.section5-block1 {
+    display: flex;
+    align-items: center;
+    width: 870px;
+    padding: 20px;
+    background: #84006E;
+    border-radius: 30px;
+    margin-top: 67px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.section5-list {
+    padding: 0 115px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 51px;
+    background: url("https://unizoo.pl/data/include/cms/landings/whiskas/img/Vector_1.svg") no-repeat 350px -40px;
+    position: relative;
+    z-index: 9;
+}
+
+.section5-list .item {
+    width: 400px;
+    text-align: center;
+}
+
+.section5-list .item2 {
+    position: relative;
+    top: 480px;
+}
+
+.section5-list .item .card-name {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.section5-list .item .card-description {
+    margin-top: -35px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.section5-list .item .card-description-text {
+    margin-bottom: 75px;
+}
+
+.section5-list .item .button {
+    margin-bottom: 40px;
+}
+
+.section5-img6 {
+    position: relative;
+    margin-top: -250px;
+}
+
+.section5-content1 {
+    padding: 15px;
+}
+
+.section6 .section-title {
+    padding-top: 0 !important;
+    margin-right: 30px;
+}
+
+.section6 {
+    height: 267px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vector {
+    position: absolute;
+    z-index: 999;
+}
+
+.vector1 {
+    bottom: 130px;
+    right: 350px;
+}
+
+.vector2 {
+    bottom: 667px;
+    left: 20px;
+}
+
+.vector3 {
+    top: 300px;
+    left: 600px;
+}
+
+.slick-next::before {
+    background-image: url('data:image/svg+xml,<svg width="30" height="34" viewBox="0 0 30 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.75 20.0311C29.0833 18.6839 29.0833 15.3161 26.75 13.9689L7.25 2.71058C4.91667 1.36343 2 3.04736 2 5.74167L2 28.2583C2 30.9526 4.91666 32.6366 7.25 31.2894L26.75 20.0311Z" fill="%23780068" stroke="%23EABE37" stroke-width="3"/></svg>');
+    background-repeat: no-repeat;
+    content: '' !important;
+    display: block;
+    width: 30px;
+    height: 34px;
+}
+
+.slick-next {
+    right: 2% !important;
+    width: 45px!important;
+    height: 52px!important;
+}
+
+.slick-prev {
+    left: 2% !important;
+    z-index: 9999;
+    width: 45px!important;
+    height: 52px!important;
+    display: flex !important;
+    align-items: center;
+    justify-content: end;
+}
+
+.slick-prev::before {
+    background-image: url('data:image/svg+xml,<svg width="30" height="34" viewBox="0 0 30 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.25 13.9689C0.916669 15.3161 0.916663 18.6839 3.25 20.0311L22.75 31.2894C25.0833 32.6366 28 30.9526 28 28.2583L28 5.74167C28 3.04737 25.0833 1.36343 22.75 2.71058L3.25 13.9689Z" fill="%23780068" stroke="%23EABE37" stroke-width="3"/></svg>');
+    content: '' !important;
+    background-repeat: no-repeat;
+    display: block;
+    width: 30px;
+    height: 34px;
+}
+
+.sectio5-block-imgs {
+    position: absolute !important;
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    grid-gap: 135px;
+    width: 100%;
+    height: 175px;
+}
+
+.section5-block-img2 {
+    position: relative;
+    top: 20px;
+}
+
+@media (max-width: 979px) {
+    .sectio5-block-imgs {
+        margin-top: 163px;
+        height: auto !important;
+    }
+    .section5-block-img2 {
+        top: 0;
+    }
+    .sectio5-block-imgs img {
+        height: auto;
+        padding: 0 84px;
+    }
+    .section-title {
+        font-size: 35px !important;
+        padding-top: 30px !important;
+    }
+    .section1-block img {
+        height: auto;
+        padding: 0 84px;
+    }
+    .slick-slider {
+        margin-bottom: 0 !important;
+    }
+    .main {
+        width: 100%;
+    }
+    picture {
+        display: flex;
+        width: 100%;
+    }
+    .section1-bg img {
+        width: 100%;
+    }
+    .section1-block {
+        margin: 0;
+        height: auto;
+        grid-gap: unset;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1-block img {
+        position: unset;
+        margin-top: 8px;
+    }
+    .section2 .section-title {
+        font-size: 30px !important;
+        ;
+        line-height: 34px !important;
+        padding-top: 5px;
+    }
+    .section2-list .item {
+        display: flex !important;
+        height: 400px;
+    }
+    .button {
+        margin-top: 70px;
+        border-width: 3px;
+        font-size: 20px !important;
+        padding: 3px 24px;
+    }
+    .section3 {
+        padding: 0 15px;
+    }
+    .section3-content img {
+        width: 100%;
+    }
+    .content-title {
+        font-size: 25px !important;
+        margin-top: 16px;
+    }
+    .card-name {
+        font-size: 25px !important;
+        margin-left: 0;
+        text-align: center;
+    }
+    .card-description-text {
+        font-size: 15px !important;
+        text-align: center;
+    }
+    .card-description {
+        align-items: center;
+    }
+    .section3 .card {
+        background: #84006E;
+        border-radius: 30px;
+        height: auto;
+        margin-top: 36px;
+    }
+    .section3-content .button {
+        position: unset;
+        margin-top: 30px;
+    }
+    .cards {
+        margin-top: 0;
+        margin-bottom: 36px;
+    }
+    .section4 .card1>img {
+        width: 100%;
+    }
+    .section4 {
+        padding: 0 15px;
+        padding-top: 25px;
+    }
+    .hidden {
+        display: none;
+    }
+    .section4 .cards .card {
+        height: auto;
+        margin-bottom: 36px;
+    }
+    .section4 .card1 {
+        margin-bottom: 36px;
+    }
+    .section5 picture>img {
+        width: 100%;
+    }
+    .section5-block1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px !important;
+        margin-top: 0;
+    }
+    .section5-block1 p {
+        margin-bottom: 40px;
+    }
+    .section5-content {
+        margin-top: 35px;
+    }
+    .section5-list {
+        width: 100%;
+        padding: 0 15px;
+        background: url('https://unizoo.pl/data/include/cms/landings/whiskas/img/Vector_1mob.svg') no-repeat center -20px;
+    }
+    .section5-list .item {
+        width: 100%;
+    }
+    .section5-img6 {
+        position: relative;
+        margin-top: -75px;
+        width: 100%;
+    }
+    .section6 {
+        flex-direction: column;
+        height: auto;
+        padding: 0 25px;
+        margin-top: 15px;
+    }
+    .vector {
+        /*display: none;*/
+    }
+    .vector3 {
+        top: 233px;
+        left: 55px;
+    }
+    .vector2 {
+        top: 1176px;
+        left: 86px;
+    }
+    .vector1 {
+        bottom: 756px;
+        right: 130px;
+    }
+    .section5-list .item img {
+        width: 100%;
+    }
+    .section5-list .item .card-description-text {
+        margin-bottom: -40px;
+    }
+    .section5-list .item .button {
+        margin-bottom: 14px;
+    }
+    .section5-list .item2 {
+        top: 0;
+        margin-top: 312px;
+    }
+    .item1 {
+        margin-top: 316px;
+    }
+    .item3 {
+        margin-top: 200px;
+    }
+    .section6 .section-title {
+        padding: 0;
+        margin-right: 0;
+        font-size: 25px !important;
+        line-height: 34px !important;
+        margin-top: 18px;
+    }
+    .section6 img {
+        width: 108px;
+    }
+    #layout {
+        margin: 0 -15px;
+    }
+    .card1 .card-description-text {
+        font-size: 15px !important;
+    }
+
+    .section5-block-img1, .section5-block-img3{
+        display: none;
+    }
+    .section5-block-img2 {
+        top: -20px !important;
+    }
+}
+@media (max-width: 780px) {
+    .section5-block-img2 {
+        top: 170px !important;
+    }
+}
+@media (max-width: 620px) {
+    .section5-block-img2 {
+        top: 100px !important;
+    }
+}
+@media (max-width: 525px) {
+    .section5-block-img2 {
+        top: 20px !important;
+    }
+}
+
+
+img {
+    max-width: 100%;
+}

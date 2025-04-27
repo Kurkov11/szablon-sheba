@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'CHONG-MODERN-PRO';
-    src: url('https://unizoo.pl/data/include/cms/landings/sheba/fonts/CHONG-MODERN-PRO/Sheba_font_CHONGMODERNPRO-REGULAR.ttf');
+    src: url('https://primavera.pl/data/include/cms/Strefa/Sheba/Sheba_font_CHONGMODERNPRO-REGULAR.ttf');
 }
 
 @font-face {
     font-family: "TT Norms Pro";
-    src: url("https://unizoo.pl/data/include/cms/landings/sheba/fonts/tt-norms-pro/TT-Norms-Pro-Regular.ttf") format("truetype");
+    src: url("https://primavera.pl/data/include/cms/Strefa/Sheba/TT-Norms-Pro-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "TT Norms Pro";
-    src: url("https://unizoo.pl/data/include/cms/landings/sheba/fonts/tt-norms-pro/TT-Norms-Pro-Light.ttf") format("truetype");
+    src: url("https://primavera.pl/data/include/cms/Strefa/Sheba/TT-Norms-Pro-Light.ttf") format("truetype");
     font-weight: 200;
     font-style: normal;
 }
@@ -711,6 +711,8 @@ img {
 .glide__arrow:hover {
     opacity: 1;
     cursor: pointer;
+    scale: 1.1;
+    transform-origin: center;
 }
 
 .glide__arrow--left {
